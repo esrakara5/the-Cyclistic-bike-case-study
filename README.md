@@ -1,6 +1,6 @@
 # Cyclistic Bike Share Case Study
 This case study has been assigned to me as the capstone project in my Google Data Analytics course. The project utilizes SQL (BigQuery) and Tableau.
-In order to answer the business questions, the steps of the data analysis process have been followed: Ask, Prepare, Process, Analyze, Share, and Act.
+In order to answer the business questions, the steps of the data analysis process have been followed: [Ask](https://github.com/esrakara5/the-Cyclistic-bike-case-study/blob/main/README.md#Ask), Prepare, Process, Analyze, Share, and Act.
 ## Scenario
 You work as a junior data analyst on the marketing team at Cyclistic, a bike-share company based in Chicago. The director of marketing emphasizes the company's growth through maximizing annual memberships. Your team's objective is to analyze the differences in bike usage between casual riders and annual members at Cyclistic. Using these insights, you will develop a new marketing strategy aimed at converting casual riders into annual members. Before proceeding, your recommendations must gain approval from Cyclistic executives, supported by compelling data insights and professional data visualizations.
 #### About Company
@@ -8,3 +8,9 @@ In 2016, Cyclistic launched a successful bike-share program that has since grown
 ## Ask
 My business task is to analyze and compare the usage patterns of Cyclistic bikes between annual members and casual riders.
 ## Prepare
+### Data Source
+[divvy_tripdata](https://divvy-tripdata.s3.amazonaws.com/index.html)
+## Process
+## Analyze
+## Share
+## Act
