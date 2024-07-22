@@ -12,5 +12,15 @@ My business task is to analyze and compare the usage patterns of Cyclistic bikes
 [divvy_tripdata](https://divvy-tripdata.s3.amazonaws.com/index.html)
 ## Process
 ## Analyze
+![data_viz](https://github.com/esrakara5/the-Cyclistic-bike-case-study/blob/main/Visualizations/agg_func.png)
 ## Share
+![data_viz]
+![data_viz]
+![data_viz]
+![data_viz]
+![data_viz]
+![data_viz]
+![data_viz]
+![data_viz]
+
 ## Act
