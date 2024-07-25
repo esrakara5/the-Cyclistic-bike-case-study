@@ -1,4 +1,5 @@
 # Cyclistic Bike Share Case Study
+##### Prepared by Esra KARA.
 This case study has been assigned to me as the capstone project in my Google Data Analytics course. The project utilizes SQL (BigQuery) and Tableau.
 In order to answer the business questions, the steps of the data analysis process have been followed: [Ask](https://github.com/esrakara5/the-Cyclistic-bike-case-study/blob/main/README.md#Ask), [Prepare](https://github.com/esrakara5/the-Cyclistic-bike-case-study/blob/main/README.md#Prepare), [Process](https://github.com/esrakara5/the-Cyclistic-bike-case-study/blob/main/README.md#Process), [Analyze](https://github.com/esrakara5/the-Cyclistic-bike-case-study/blob/main/README.md#Analyze), [Share](https://github.com/esrakara5/the-Cyclistic-bike-case-study/blob/main/README.md#Share), and [Act](https://github.com/esrakara5/the-Cyclistic-bike-case-study/blob/main/README.md#Act).
 ## Scenario
@@ -18,6 +19,8 @@ The dataset comprises 12 CSV files in long format, covering the period from Apri
 BigQuery is utilized to combine the 12 datasets into a single dataset and perform data cleaning.
 
 Due to the limitation in Microsoft Excel, where a worksheet can have a maximum of 1,048,576 rows, it is not suitable for managing large datasets. Given that the Cyclistic dataset contains over 5.6 million rows, it is essential to use a platform like BigQuery, which supports handling large volumes of data efficiently.
+### Data Combining
+You can access the combined 12-month dataset, referred to as annual_tripdata, through the following [SQL query](https://github.com/esrakara5/the-Cyclistic-bike-case-study/blob/main/Data_combining.sql).During the merging process, the CAST function was used to specify start_station_id and end_station_id as STRING data types.
 ## Analyze
 ![data_viz](https://github.com/esrakara5/the-Cyclistic-bike-case-study/blob/main/Visualizations/agg_func.png)
 ## Share
