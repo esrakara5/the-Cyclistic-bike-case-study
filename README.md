@@ -21,6 +21,17 @@ BigQuery is utilized to combine the 12 datasets into a single dataset and perfor
 Due to the limitation in Microsoft Excel, where a worksheet can have a maximum of 1,048,576 rows, it is not suitable for managing large datasets. Given that the Cyclistic dataset contains over 5.6 million rows, it is essential to use a platform like BigQuery, which supports handling large volumes of data efficiently.
 ### Data Combining
 You can access the combined 12-month dataset, referred to as annual_tripdata, through the following [SQL query](https://github.com/esrakara5/the-Cyclistic-bike-case-study/blob/main/Data_combining.sql).During the merging process, the CAST function was used to specify start_station_id and end_station_id as STRING data types.
+### Data Cleaning
+You can access the SQL queries for data cleaning through this [link](https://github.com/esrakara5/the-Cyclistic-bike-case-study/blob/main/Data_Cleaning.sql).
+The data cleaning process begins by addressing the integrity of the annual_tripdata table. Initially, rows with any NULL values in critical columns are removed to ensure the dataset's completeness. This step eliminates records with missing information, thereby enhancing the reliability of subsequent analyses.
+
+Following this, a new column named ride_length is introduced to capture the duration of each ride, measured in minutes. This column is of type INT64 and is essential for analyzing ride durations. The ride_length values are then calculated by computing the time difference, in minutes, between the ended_at and started_at timestamps for each ride.
+
+To maintain data accuracy, any rows where ride_length falls below 0 minutes or exceeds 1440 minutes (equivalent to 24 hours) are removed. This ensures that only realistic and valid ride durations are included in the dataset.
+
+Subsequently, another column, day_of_week, is added to record the day of the week on which each ride commenced. The values for this column are derived from the started_at timestamp, converting numerical day representations into their respective names (e.g., Sunday, Monday, etc.). This addition facilitates day-of-week analyses and enriches the dataset for more nuanced insights.
+
+
 ## Analyze
 ![data_viz](https://github.com/esrakara5/the-Cyclistic-bike-case-study/blob/main/Visualizations/agg_func.png)
 ## Share
