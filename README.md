@@ -7,6 +7,16 @@ You work as a junior data analyst on the marketing team at Cyclistic, a bike-sha
 #### About Company
 In 2016, Cyclistic launched a successful bike-share program that has since grown to a fleet of 5,824 bicycles, geotracked and locked into a network of 692 stations across Chicago. The bikes can be unlocked from one station and returned to any other station in the system at any time. Cyclistic's marketing strategy has focused on building general awareness and appealing to broad consumer segments. This approach has been supported by flexible pricing plans including single-ride passes, full-day passes, and annual memberships. Customers purchasing single-ride or full-day passes are categorized as casual riders, while those opting for annual memberships become Cyclistic members.
 ## Ask
+Three questions will guide the future marketing program:
+
+1.How do annual members and casual riders use Cyclistic bikes differently?
+
+2.Why would casual riders buy Cyclistic annual memberships?
+
+3.How can Cyclistic use digital media to influence casual riders to become members?
+
+In the case study, the manager has assigned the first question, "How do annual members and casual riders use Cyclistic bikes differently?" and this question is being investigated.
+
 My business task is to analyze and compare the usage patterns of Cyclistic bikes between annual members and casual riders. Additionally, develop marketing strategies to convert casual riders into members.
 ## Prepare
 ### Data Source
@@ -33,7 +43,21 @@ Subsequently, another column, day_of_week, is added to record the day of the wee
 
 
 ## Analyze
+For detailed SQL queries used in this analysis, please refer to this [link](https://github.com/esrakara5/the-Cyclistic-bike-case-study/blob/main/Analyzing_Data.sql).
+
+To derive meaningful insights from the Cyclistic dataset, various aggregate functions were utilized. Firstly, the average and maximum ride durations were computed, focusing on rides lasting between 1 and 1440 minutes. This provided a clear picture of typical and extreme ride lengths within a plausible range. Additionally, the analysis identified the most common day of the week for rides, offering valuable information on peak usage days.
+
 ![data_viz](https://github.com/esrakara5/the-Cyclistic-bike-case-study/blob/main/Visualizations/agg_func.png)
+
+
+Further exploration segmented average ride lengths by membership type, revealing distinct patterns between casual riders and members. This comparison highlighted the differing usage behaviors of these groups. The analysis was also extended to examine average ride durations across different days of the week, segmented by membership type, uncovering how riding habits vary throughout the week.
+
+In terms of ride frequency, the total number of rides per day of the week was calculated for both members and casual riders. This aggregation provided insights into the busiest days for each user group. Additionally, the preferences of members regarding bike types were analyzed, showing which bike types were most popular among the membership cohort.
+
+Finally, the dataset was explored to identify stations with the highest number of rides by members. This analysis pinpointed key locations that are frequently used by members, aiding in understanding station popularity and potential areas for operational improvements.
+
+
+
 ## Share
 ![data_viz]
 ![data_viz]
