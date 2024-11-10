@@ -59,13 +59,55 @@ Finally, the dataset was explored to identify stations with the highest number o
 
 
 ## Share
-![data_viz]
-![data_viz]
-![data_viz]
-![data_viz]
-![data_viz]
-![data_viz]
-![data_viz]
-![data_viz]
+
+![data_viz](https://github.com/esrakara5/the-Cyclistic-bike-case-study/blob/main/Visualizations/avg_ride_member_type.png) 
+
+The analysis of the average ride length by member type reveals that casual riders have a significantly higher average ride length compared to annual members. This observation suggests that casual riders likely use Cyclistic bikes for leisurely or exploratory purposes, leading to longer ride durations. In contrast, annual members, who likely use the service more regularly for commuting or quick trips, tend to have shorter ride durations. This difference in average ride length highlights distinct usage patterns between casual and annual members, potentially driven by varying motivations and needs.
+
+![data_viz](https://github.com/esrakara5/the-Cyclistic-bike-case-study/blob/main/Visualizations/avg_ride_weekday.png)
+
+The analysis of average ride length by day of the week reveals that both annual members and casual riders tend to have higher ride durations on weekends. This suggests that both groups use Cyclistic bikes for longer, likely recreational rides during weekends. While weekday usage may primarily focus on shorter, commute-oriented trips, weekends allow users to take more leisurely, extended rides.
+
+![data_viz](https://github.com/esrakara5/the-Cyclistic-bike-case-study/blob/main/Visualizations/bike_preference.png)
+
+The "Bike Preference Distribution" chart shows that docked bikes are the most preferred type for both member categories. Following docked bikes, electric bikes and classic bikes are the least preferred types among users. This distribution indicates that Cyclistic users predominantly favor docked bikes, while electric bike usage remains relatively low.
+
+![data_viz](https://github.com/esrakara5/the-Cyclistic-bike-case-study/blob/main/Visualizations/map.png)
+
+The maps, which display starting and ending stations, reveal a high concentration of rides in coastal areas and popular tourist spots. This pattern suggests that Cyclistic bikes are frequently used in scenic and high-traffic locations, likely by both locals and tourists seeking convenient transportation around key attractions.
+
+![data_viz](https://github.com/esrakara5/the-Cyclistic-bike-case-study/blob/main/Visualizations/total_ride_month.png)
+
+The "Total Number of Rides for Users by Month" line graph shows a clear peak in ride activity for both membership types between July and September, while February and April exhibit the lowest usage levels. The increase during summer months aligns with warmer weather and peak travel season, likely encouraging more recreational rides and outdoor activity. Conversely, the low usage in February and April may be attributed to colder winter conditions in February and the transitional, often unpredictable weather of early spring in April.
+
+![data_viz](https://github.com/esrakara5/the-Cyclistic-bike-case-study/blob/main/Visualizations/total_ride_weekday.png)
+
+The "Total Number of Rides for Users by Weekday" line graph shows distinct usage patterns for casual users and annual members. Casual users exhibit a significant increase in ride activity on weekends, with notably lower usage during the weekdays. This suggests that casual riders primarily use bikes for recreational purposes on their days off and less frequently during the workweek. In contrast, annual members display a different pattern, with Sunday and Monday showing relatively lower ride counts compared to other days. Interestingly, Wednesday stands out with the highest ride activity, indicating that annual members may use the service more for commuting or midweek activities, possibly due to a steady routine or a break in their work schedule. 
+
+![data_viz](https://github.com/esrakara5/the-Cyclistic-bike-case-study/blob/main/Visualizations/total_ride_hour.png)
+
+The line graphs for the start and end times of rides show that annual members experience increased bike usage at specific times of the day. In the start time graph, both user types peak at 18:00, indicating that bike usage is higher during the evening hours. In the end time graph, the peak is at 17:00, suggesting that users tend to finish their rides around this time, possibly after work or other afternoon activities. Annual members show increased usage at 08:00, 12:00, and 18:00, which correspond to typical commuting times—morning, lunch break, and evening. This suggests that annual members use bikes as part of their daily routines, with a more structured, time-focused approach to bike usage compared to casual riders.
+
+
 
 ## Act
+In conclusion, the analysis of Cyclistic bike usage patterns reveals distinct behaviors between casual riders and annual members, influenced by various factors such as the purpose of the ride, time of day, and seasonal variations. Casual riders tend to use bikes for leisurely, longer rides, especially on weekends, whereas annual members show a more structured usage pattern, primarily for commuting during peak hours. The preference for docked bikes over electric and classic bikes suggests a consistent choice among users, with a clear focus on convenience and accessibility. Additionally, the concentration of rides in coastal and tourist areas reflects the demand for transportation in high-traffic, scenic locations. Seasonal trends indicate that bike usage peaks during the summer months, while it drops during colder or transitional periods.
+### Suggestions
+1. Targeted Marketing for Casual Riders on Weekdays:
+    Since casual riders primarily use bikes on weekends, Cyclistic could introduce weekday promotions or discounts to encourage more usage during the workweek. This could help balance the demand across all days and increase weekday ridership.
+
+2. Focus on Commuting Needs for Annual Members:
+    Given that annual members primarily use bikes for commuting at specific times (08:00, 12:00, 18:00), Cyclistic could enhance bike availability and maintenance during peak hours to accommodate these users. Additionally, Cyclistic could consider offering a "commuter package" to make daily usage more convenient and cost-effective.
+
+3. Increase Electric Bike Availability:
+    With electric bikes being less popular, Cyclistic could explore ways to promote electric bikes through targeted campaigns, highlighting their benefits for longer rides or easier commutes. Additionally, placing more electric bikes in high-demand areas, such as tourist spots, could encourage more users to try them.
+
+4. Enhance Services in Popular Tourist Areas:
+    Since rides are concentrated in coastal and tourist areas, Cyclistic could focus on improving bike availability, signage, and customer support in these high-traffic locations. Offering special packages or discounts for tourists could also help boost usage during peak travel seasons.
+
+
+
+
+
+
+
